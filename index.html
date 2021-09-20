@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="big-box">
+        <div class="main-bar container2 ">
+            <p class="top-p-header"> Dojonary
+            </p>
+            <div class="nav-icon space-between3">
+                <img class="back-icon" src="./icons8-back-arrow-64.png" alt="back-bar">
+                <img src="./icons8-arrow-50.png" alt="forward-bar">
+                <img class="delete-icon" src="./icons8-delete-30.png" alt="delete-bar">
+                <img class="home-icon" src="./icons8-home-page-24.png" alt="home-bar">
+                <button class="nav-search-button">C:\Users\Username\Documents\dojonary\index.html</button>
+                <img class="search-icon" src="./icons8-search-bar-50.png" alt="search-bar">
+
+            </div>
+        
+        </div>
+        <header class="sub-header space-between container">
+            <h2>Dojonary</h2>
+            <button class="search-button">Search</button>
+            <button onclick="changeLogin(this)" class="login">Login</button>
+        </header>
+    
+        <div class="content container space-between1">
+            <div>
+                <div class="definition-box space-between1">
+                    <div class="word">
+                        <h4>ninja</h4>
+                        <p class="adjective">noun</p>
+                        <p>Plural:<em>ninjas</em></p>
+    
+                        <button onclick="alert('Ninja was liked')" class="btn">13 likes</button>
+    
+                    </div>
+    
+                    <p class="meaning">
+                        A practitioner skilled in the <a href="">Japanese </a>
+                        art of <a href="">ninjutsu</a>
+                    </p>
+    
+                </div>
+    
+                <div class="definition-box space-between1">
+                    <div class="word">
+                        <h4>ninja</h4>
+                        <p class="adjective">noun</p>
+                        <p>Plural:<em>ninjas</em></p>
+    
+                        <button class="btn">37 likes</button>
+    
+                    </div>
+    
+                    <p class="meaning">
+                        A <a href="">programmer</a> who breaks down problems with
+                        art of <a href="">zen</a>-like focus
+                    </p>
+    
+                </div>
+            </div>
+    
+    
+            <div class="add-dojonary">
+                <h3>Dojonary is defined by YOU</h3>
+                <button onclick="remove(this)"class="add-definition-button">Add Definition</button>
+            </div>
+    
+        </div>
+        <footer class="footer container2"></footer>
+
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
